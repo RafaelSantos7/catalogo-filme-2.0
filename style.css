@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url("inter.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    width: 13%;
+    background-color: black; 
+    margin-top: 10px;  
+    margin-left: 570px;
+    margin-bottom: 50px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.page-title {
+    color: white;
+}
+
+span {
+    color: red;
+}
+  
+.rs-logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+}
+  
+.form-wrapper {
+    width: 98%;
+    margin: 0 0 15px;
+}
+
+.page-subtitle {
+    color: white;
+    width: 200px;
+    padding-left: 565px;
+    font-weight: 900;
+}
+  
+.form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+  
+.form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
